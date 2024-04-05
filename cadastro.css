@@ -1,0 +1,220 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+
+
+body {
+    background-color: papayawhip;
+}
+* {
+    padding: 0;
+    margin: 0;
+  
+    font-family: "Playfair Display", serif;
+  }
+  
+  .container {
+    height: 100vh;
+  
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .container h1 {
+    font-size: 42px;
+  
+    margin-bottom: 10px;
+  }
+  
+  .container #formulario {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+  
+    height: 400px;
+    width: 400px;
+  
+    background-color: lightgreen;
+    color: black;
+  }
+  
+  .container #formulario input,
+  button {
+    margin-left: 30px;
+    margin-right: 30px;
+  }
+  
+  .container #formulario label {
+    margin-left: 30px;
+  
+    font-size: 20px;
+  }
+  
+  .container #formulario input {
+    font-size: 20px;
+  
+    height: 30px;
+  
+    border: none;
+    border-radius: 5px;
+    outline: none;
+  
+    padding-left: 10px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+  }
+  
+  .container #formulario button {
+    height: 40px;
+  
+    font-size: 18px;
+  
+   background-color: rgba(240, 248, 255, 0.644);
+    border: none;
+    border-radius: 5px;
+  }
+  
+  .container #formulario button:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+    color: darkgreen;
+    transition: 0.3s;
+    cursor: pointer;
+  }
+  
+  .container #formulario a {
+    display: flex;
+    align-self: center;
+  
+    color: forestgreen;
+  }
+  
+  .container #formulario a:hover {
+    color: deeppink;
+    transition: 0.3s;
+  }
+  
+  .container #formulario #grupo_login, #grupo_senha {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  
+    height: 70px;
+  }
+  
+  .container #formulario #grupo_botao {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  
+    height: 75px;
+  }@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+
+
+  body {
+      background-color: papayawhip;
+  }
+  * {
+      padding: 0;
+      margin: 0;
+    
+      font-family: "Playfair Display", serif;
+    }
+    
+    .container {
+      height: 100vh;
+    
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+    
+    .container h1 {
+      font-size: 42px;
+    
+      margin-bottom: 10px;
+    }
+    
+    .container #formulario {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-evenly;
+    
+      height: 400px;
+      width: 400px;
+    
+      background-color: lightgreen;
+      color: black;
+    }
+    
+        
+    .container #formulario #grupo_sobrenome, #grupo_nome {
+      display: flex;
+      flex-direction: column;
+      height: 75px;
+      width: 400px;
+      
+    }
+    
+    .container #formulario #grupo_botao {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+    
+      height: 75px;
+    }
+
+    .container #formulario input,
+    button {
+      margin-left: 30px;
+      margin-right: 30px;
+    }
+    
+    .container #formulario label {
+      margin-left: 30px;
+    
+      font-size: 20px;
+    }
+    
+    .container #formulario input {
+      font-size: 20px;
+    
+      height: 30px;
+    
+      border: none;
+      border-radius: 5px;
+      outline: none;
+    
+      padding-left: 10px;
+      padding-top: 2px;
+      padding-bottom: 2px;
+    }
+    
+    .container #formulario button {
+      height: 40px;
+    
+      font-size: 18px;
+    
+     background-color: rgba(240, 248, 255, 0.644);
+      border: none;
+      border-radius: 5px;
+    }
+    
+    .container #formulario button:hover {
+      background-color: rgba(0, 0, 0, 0.8);
+      color: darkgreen;
+      transition: 0.3s;
+      cursor: pointer;
+    }
+    
+    .container #formulario a {
+      display: flex;
+      align-self: center;
+    
+      color: forestgreen;
+    }
+    
+    .container #formulario a:hover {
+      color: deeppink;
+      transition: 0.3s;
+    }
